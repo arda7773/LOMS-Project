@@ -1,17 +1,5 @@
-# Java/Gradle
-.gradle/
-build/
-**/build/
-out/
-!gradle/wrapper/gradle-wrapper.jar
-
-# IntelliJ/IDEA
-.idea/
-*.iml
-
-# VSCode
-.vscode/
-
-# OS
-.DS_Store
-Thumbs.db
+.venv/
+__pycache__/
+*.pyc
+*.sqlite3
+.env

@@ -1,7 +1,0 @@
-rootProject.name = "loms-project"
-
-include("core")
-include("loms")
-
-// İleride eklenecek uygulamalar için yol:
-// include("apps:my-new-app")
