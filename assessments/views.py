@@ -51,7 +51,7 @@ def assessment_manage(request, curriculum_id):
 
     AssessmentForm = modelform_factory(
         Assessment,
-        fields=["name", "type", "weight_in_course", "max_score", "date"],
+        fields=["type", "weight_in_course", "max_score", "date"],
     )
 
     if request.method == "POST":
@@ -83,7 +83,7 @@ def assessment_edit(request, pk):
 
     AssessmentForm = modelform_factory(
         Assessment,
-        fields=["name", "type", "weight_in_course", "max_score", "date"],
+        fields=[ "type", "weight_in_course", "max_score", "date"],
     )
 
     if request.method == "POST":
